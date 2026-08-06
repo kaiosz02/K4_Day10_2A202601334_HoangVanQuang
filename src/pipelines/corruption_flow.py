@@ -68,8 +68,8 @@ def main() -> None:
     corrupted_freshness = build_freshness_report(
         corrupted_df, settings, settings.paths.quality_dir / "freshness_report_corrupted.json"
     )
-    print(f"-> Corrupted Quality Pass: {'PASSED ✅' if corrupted_quality.get('success') else 'FAILED ❌'}")
-    print(f"-> Corrupted Freshness:   {'FRESH ✅' if corrupted_freshness.get('is_fresh') else 'STALE ⚠️'}")
+    print(f"-> Corrupted Quality Pass: {'PASSED' if corrupted_quality.get('success') else 'FAILED'}")
+    print(f"-> Corrupted Freshness:   {'FRESH' if corrupted_freshness.get('is_fresh') else 'STALE'}")
 
     # 6. Repair Data from Authoritative Raw Source
     print("Step 6: Repairing dataset from raw source snapshot...")

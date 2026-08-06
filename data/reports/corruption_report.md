@@ -5,9 +5,9 @@
 | Metric | Baseline | Corrupted | Repaired |
 |---|---|---|---|
 | Retrieval Hit Rate | 100.00% | 50.00% | 100.00% |
-| Mean Token F1 | 0.8363 | 0.3892 | 0.8363 |
-| Judge Accuracy | 75.00% | 37.50% | 75.00% |
-| Mean Judge Score | 4.00/5 | 2.50/5 | 4.00/5 |
+| Mean Token F1 | 0.8363 | 0.3844 | 0.8363 |
+| Judge Accuracy | 81.25% | 37.50% | 81.25% |
+| Mean Judge Score | 4.31/5 | 2.56/5 | 4.31/5 |
 
 ## Quality & Freshness Assessment
 

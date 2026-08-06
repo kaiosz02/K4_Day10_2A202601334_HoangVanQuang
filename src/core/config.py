@@ -8,14 +8,14 @@ import os
 from dotenv import load_dotenv
 
 
-def _pick_google_api_key(raw_value: str | None) -> str | None:
+def _normalize_google_api_keys(raw_value: str | None) -> str | None:
     if not raw_value:
         return None
     candidates = [part.strip() for part in raw_value.split(",") if part.strip()]
-    for candidate in candidates:
-        if candidate.startswith("AIza"):
-            return candidate
-    return candidates[0] if candidates else None
+    valid_candidates = [candidate for candidate in candidates if candidate.startswith("AIza")]
+    if valid_candidates:
+        return ",".join(valid_candidates)
+    return ",".join(candidates) if candidates else None
 
 
 @dataclass(frozen=True)
@@ -121,7 +121,7 @@ def load_settings(project_dir: Path | None = None) -> Settings:
     return Settings(
         llm_provider=os.getenv("LLM_PROVIDER", "gemini"),
         model_name=os.getenv("LLM_MODEL", "gemini-2.5-flash"),
-        google_api_key=_pick_google_api_key(os.getenv("GOOGLE_API_KEY")),
+        google_api_key=_normalize_google_api_keys(os.getenv("GOOGLE_API_KEY")),
         openai_api_key=os.getenv("OPENAI_API_KEY"),
         anthropic_api_key=os.getenv("ANTHROPIC_API_KEY"),
         openrouter_api_key=os.getenv("OPENROUTER_API_KEY"),

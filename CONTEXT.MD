@@ -37,7 +37,7 @@ Nhóm 4 người, dự án nằm tại:
 |---|---|---|---|---|
 | **1 — Lead / Pipeline integrator** | Hoàng Văn Quang | 2A202601334 | Settings, orchestration, release, demo | `src/core/`, `src/pipelines/phase1.py`, `src/pipelines/corruption_flow.py` |
 | **2 — Data foundation & recovery** | Nguyễn Thị Việt Vinh | 2A202601836 | Crossref ingestion, cleaning, corruption, repair | `src/ingestion/crossref.py`, `cleaning.py`, `corruption.py` |
-| **3 — RAG & agent owner** | Hoàng Thị Trà My | 2A202601290 | MiniLM embedding, Chroma, semantic search, agent | `src/retrieval/` (đã implement sẵn — chỉ cần đọc/verify) |
+| **3 — RAG & agent owner** | Hoàng Thị Trà My | 2A202601290 | embedding, Chroma, semantic search, agent | `src/retrieval/` (đã implement sẵn — chỉ cần đọc/verify) |
 | **4 — Evaluation & observability** | Tạ Hồng Quí | 2A202601538 | Test set, metrics, quality, freshness, reports | `src/evaluation/testset.py`, `src/observability/quality.py`, `reporting.py` |
 
 Quy tắc xuyên suốt cả nhóm:
