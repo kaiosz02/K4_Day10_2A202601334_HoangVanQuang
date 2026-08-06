@@ -1,22 +1,23 @@
-# Data Corruption & Recovery Comparison Report
+# Báo cáo so sánh Corrupted và Repaired
 
-## Evaluation Metrics Comparison
+## Bảng so sánh chỉ số đánh giá
 
-| Metric | Baseline | Corrupted | Repaired |
-|---|---|---|---|
-| Retrieval Hit Rate | 100.00% | 50.00% | 100.00% |
-| Mean Token F1 | 0.8363 | 0.3844 | 0.8363 |
-| Judge Accuracy | 81.25% | 37.50% | 81.25% |
-| Mean Judge Score | 4.31/5 | 2.56/5 | 4.31/5 |
+| Chỉ số | Baseline | Corrupted | Repaired | Delta (Corrupted - Baseline) | Delta (Repaired - Corrupted) |
+|---|---:|---:|---:|---:|---:|
+| Retrieval Hit Rate | 100.00% | 50.00% | 100.00% | -50.00% | +50.00% |
+| Mean Token F1 | 0.8363 | 0.3844 | 0.8363 | -0.4519 | +0.4519 |
+| Judge Accuracy | 81.25% | 37.50% | 81.25% | -43.75% | +43.75% |
+| Mean Judge Score | 4.31/5 | 2.56/5 | 4.31/5 | -1.75 | +1.75 |
 
-## Quality & Freshness Assessment
+## Đánh giá chất lượng dữ liệu và độ tươi
 
-| Assessment | Corrupted Data | Repaired Data |
-|---|---|---|
-| Quality Passed | No | Yes |
-| Null Titles | 0 | 0 |
-| Short Summaries | 4 | 0 |
-| Stale Rows | 5 | 0 |
+| Hạng mục | Corrupted | Repaired |
+|---|---:|---:|
+| Chất lượng đạt | Không | Có |
+| Số tiêu đề null | 0 | 0 |
+| Số summary quá ngắn | 4 | 0 |
+| Số dòng stale | 5 | 0 |
 
-## Conclusion
-Data errors significantly decrease the accuracy of the Retrieval-Augmented Generation (RAG) agent. Correctly repairing data from raw sources recovers the original RAG metrics.
+## Kết luận
+Corruption làm giảm rõ rệt chất lượng RAG (hit rate, token F1, judge accuracy, judge score đều giảm). 
+Khi repair lại từ dữ liệu raw đáng tin cậy, các chỉ số phục hồi gần/đúng về baseline.
