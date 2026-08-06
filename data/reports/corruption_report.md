@@ -2,12 +2,12 @@
 
 ## Bảng so sánh chỉ số đánh giá
 
-| Chỉ số | Baseline | Corrupted | Repaired | Delta (Corrupted - Baseline) | Delta (Repaired - Corrupted) |
-|---|---:|---:|---:|---:|---:|
-| Retrieval Hit Rate | 100.00% | 50.00% | 100.00% | -50.00% | +50.00% |
-| Mean Token F1 | 0.8363 | 0.3844 | 0.8363 | -0.4519 | +0.4519 |
-| Judge Accuracy | 81.25% | 37.50% | 81.25% | -43.75% | +43.75% |
-| Mean Judge Score | 4.31/5 | 2.56/5 | 4.31/5 | -1.75 | +1.75 |
+| Metric | Baseline | Corrupted | Repaired |
+|---|---|---|---|
+| Retrieval Hit Rate | 100.00% | 50.00% | 100.00% |
+| Mean Token F1 | 0.8363 | 0.3892 | 0.8363 |
+| Judge Accuracy | 75.00% | 37.50% | 75.00% |
+| Mean Judge Score | 4.00/5 | 2.50/5 | 4.00/5 |
 
 ## Đánh giá chất lượng dữ liệu và độ tươi
 
