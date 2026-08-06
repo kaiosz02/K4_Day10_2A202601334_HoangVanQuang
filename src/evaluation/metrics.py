@@ -12,7 +12,7 @@ from pydantic import BaseModel, Field
 
 from core.config import Settings
 from core.utils import normalize_whitespace, read_json, write_json
-from retrieval.embeddings import GeminiEmbeddings
+from retrieval.embeddings import MiniLMEmbeddings as GeminiEmbeddings
 from retrieval.index import LocalEmbeddingIndex
 from retrieval.llm import build_llm
 from retrieval.qa import answer_question

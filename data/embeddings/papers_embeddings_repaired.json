@@ -1,8 +1,8 @@
 {
   "backend": "chroma",
   "embedding_model": "gemini-embedding-2",
-  "persist_path": "D:\\thuc_hanh_vinAI\\K4_Day10_2A202601334_HoangVanQuang\\data\\chroma",
-  "collection_name": "papers-baseline",
+  "persist_path": "C:\\AITHUCCHIEN\\GROUP10\\K4_Day10_Data-Pipeline-Data-Observability\\data\\chroma",
+  "collection_name": "papers-repaired",
   "documents": [
     {
       "record_id": "10.4018/979-8-2600-0413-5.ch006::0",

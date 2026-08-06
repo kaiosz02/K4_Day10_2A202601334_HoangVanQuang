@@ -2,11 +2,6 @@ from __future__ import annotations
 
 import itertools
 
-from langchain_anthropic import ChatAnthropic
-from langchain_google_genai import ChatGoogleGenerativeAI
-from langchain_ollama import ChatOllama
-from langchain_openai import ChatOpenAI
-
 from core.config import Settings, normalized_provider, require_llm_credentials
 
 _key_cycles: dict[str, itertools.cycle] = {}
@@ -41,21 +36,25 @@ def build_llm(settings: Settings, temperature: float = 0.0):
     require_llm_credentials(settings)
 
     if provider == "gemini":
+        from langchain_google_genai import ChatGoogleGenerativeAI
         keys = _get_rotated_keys(provider, settings.google_api_key)
         return _build_with_fallbacks(
             ChatGoogleGenerativeAI, keys, key_kwarg="google_api_key", model=settings.model_name, temperature=temperature
         )
     if provider == "openai":
+        from langchain_openai import ChatOpenAI
         keys = _get_rotated_keys(provider, settings.openai_api_key)
         return _build_with_fallbacks(
             ChatOpenAI, keys, key_kwarg="api_key", model=settings.model_name, temperature=temperature
         )
     if provider == "anthropic":
+        from langchain_anthropic import ChatAnthropic
         keys = _get_rotated_keys(provider, settings.anthropic_api_key)
         return _build_with_fallbacks(
             ChatAnthropic, keys, key_kwarg="api_key", model=settings.model_name, temperature=temperature
         )
     if provider == "openrouter":
+        from langchain_openai import ChatOpenAI
         keys = _get_rotated_keys(provider, settings.openrouter_api_key)
         return _build_with_fallbacks(
             ChatOpenAI,
@@ -66,12 +65,14 @@ def build_llm(settings: Settings, temperature: float = 0.0):
             temperature=temperature,
         )
     if provider == "ollama":
+        from langchain_ollama import ChatOllama
         return ChatOllama(
             model=settings.model_name,
             base_url=settings.ollama_base_url,
             temperature=temperature,
         )
     if provider == "custom":
+        from langchain_openai import ChatOpenAI
         keys = _get_rotated_keys(provider, settings.custom_llm_api_key)
         if not keys:
             keys = ["unused"]
