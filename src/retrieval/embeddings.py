@@ -1,15 +1,34 @@
 from __future__ import annotations
 
-from langchain_core.embeddings import Embeddings
-from langchain_google_genai import GoogleGenerativeAIEmbeddings
+from functools import lru_cache
 
-class GeminiEmbeddings(Embeddings):
-    def __init__(self, model_name: str = "gemini-embedding-2"):
-        # Wrap GoogleGenerativeAIEmbeddings
-        self.model = GoogleGenerativeAIEmbeddings(model=model_name)
+from langchain_core.embeddings import Embeddings
+from sentence_transformers import SentenceTransformer
+
+
+@lru_cache(maxsize=4)
+def _load_model(model_name: str) -> SentenceTransformer:
+    return SentenceTransformer(model_name)
+
+
+class MiniLMEmbeddings(Embeddings):
+    def __init__(self, model_name: str = "sentence-transformers/all-MiniLM-L6-v2"):
+        # Handle cases where model_name is gemini-embedding-2 or sentence-transformers name
+        actual_model = (
+            "sentence-transformers/all-MiniLM-L6-v2"
+            if "gemini" in model_name.lower() or not model_name
+            else model_name
+        )
+        self.model = _load_model(actual_model)
 
     def embed_documents(self, texts: list[str]) -> list[list[float]]:
-        return self.model.embed_documents(texts)
+        embeddings = self.model.encode(texts, normalize_embeddings=True)
+        return embeddings.tolist()
 
     def embed_query(self, text: str) -> list[float]:
-        return self.model.embed_query(text)
+        embedding = self.model.encode([text], normalize_embeddings=True)
+        return embedding[0].tolist()
+
+
+# Alias for backward compatibility if referenced elsewhere
+GeminiEmbeddings = MiniLMEmbeddings

@@ -1,0 +1,62 @@
+{
+  "timestamp": "2026-08-06T15:29:58.178780",
+  "total_rows_before": 24,
+  "total_rows_after": 24,
+  "corruptions": [
+    {
+      "type": "drop_latest_records",
+      "count": 2,
+      "affected_paper_ids": [
+        "10.4018/979-8-2600-0413-5.ch006",
+        "10.64898/2026.07.30.26359271"
+      ],
+      "description": "Dropped latest records to simulate missing source records."
+    },
+    {
+      "type": "blank_summary",
+      "count": 2,
+      "affected_paper_ids": [
+        "10.21203/rs.3.rs-10346820/v1",
+        "10.21203/rs.3.rs-10196595/v1"
+      ],
+      "description": "Blanked out summaries to simulate missing payload content."
+    },
+    {
+      "type": "inject_noise",
+      "count": 2,
+      "affected_paper_ids": [
+        "10.4018/979-8-3373-6650-0.ch016",
+        "10.14293/pr2199.003969.v1"
+      ],
+      "description": "Injected random text noise into summaries."
+    },
+    {
+      "type": "truncate_title",
+      "count": 2,
+      "affected_paper_ids": [
+        "10.21203/rs.3.rs-8343110/v1",
+        "10.61413/qcir6462"
+      ],
+      "description": "Truncated paper titles to incomplete snippets."
+    },
+    {
+      "type": "stale_published_date",
+      "count": 3,
+      "affected_paper_ids": [
+        "10.21203/rs.3.rs-10346820/v1",
+        "10.21203/rs.3.rs-10196595/v1",
+        "10.4018/979-8-3373-6650-0.ch016"
+      ],
+      "description": "Shifted publication dates back to 2020 to violate freshness SLA."
+    },
+    {
+      "type": "add_duplicates",
+      "count": 2,
+      "affected_paper_ids": [
+        "10.21203/rs.3.rs-10346820/v1",
+        "10.21203/rs.3.rs-10196595/v1"
+      ],
+      "description": "Duplicated rows to test unique ID validation."
+    }
+  ]
+}

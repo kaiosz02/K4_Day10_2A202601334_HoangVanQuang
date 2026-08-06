@@ -171,21 +171,6 @@
     "comment": "Advances in Computational Intelligence and Robotics AI Paradigms for the Quantum Future"
   },
   {
-    "paper_id": "10.3390/math14101627",
-    "title": "Pharmacokinetics-Informed Agentic Architecture for Drug Dynamics with LLM-Driven In Silico Patients",
-    "summary": "<jats:p>This research presents the architecture, implementation, and validation of a novel Agentic Large Model (ALM) framework for in silico patient simulation, synergistically combining pharmacokinetic modeling with autonomous clinical reasoning. The multi-agent architecture enables emerging collaboration between specialized components for physiological simulation, medication management, and safety monitoring, coordinated through a central orchestrator to ensure behavioral alignment. Leveraging LLaMA3 via Ollama, the system demonstrates clinically plausible strategic planning across 12 diverse patient scenarios while maintaining trustworthiness through structured JSON-constrained outputs. Key innovations include a modular agent design with clear separation of concerns, integrated drug interaction checking with hierarchical severity assessment, and multi-layer safety assurance. Rigorous evaluation demonstrates effective pain management (39–58% reduction) with appropriate safety flagging in complex cases, particularly for geriatric and polypharmacy patients. The system achieves an average decision latency of 2.1 s while maintaining 98.7% structured output compliance, advancing the foundations of reliable agentic systems in critical healthcare domains.</jats:p>",
-    "authors": [
-      "Jose L. Salmeron"
-    ],
-    "categories": [],
-    "primary_category": "General",
-    "published": "2026-05-11",
-    "updated": "2026-05-20",
-    "abs_url": "https://doi.org/10.3390/math14101627",
-    "pdf_url": "",
-    "comment": "Mathematics"
-  },
-  {
     "paper_id": "10.20944/preprints202604.1025.v1",
     "title": "SAMF: SAWANT (Structured Agentic Workflow for Alignment, Validation, and Negotiated Testing) for Reliable, Safe, and Verifiable LLM Prompting",
     "summary": "<jats:p>Large language models are increasingly deployed in agentic workflows that combine planning, retrieval, tool use, and automated decision support. However, these systems remain vulnerable to unsafe behavior, hallucination, misaligned fine-tuning, and weak reproducibility because most prompts are still written as informal instructions rather than explicit behavioral contracts. This paper introduces the SAWANT (Structured Agentic Workflow for Alignment, Validation, and Negotiated Testing) Agentic MoSCoW Framework (SAMF), a structured prompt engineering methodology that repurposes the MoSCoW prioritization scheme into a machine-readable contract for LLM behavior. SAMF organizes prompt and workflow requirements into Must, Should, Could, and Wont clauses so that non-negotiable constraints can be validated before or after generation, while optional preferences guide quality and style. The framework is designed for single-prompt tasks, retrieval-augmented generation pipelines, and multi-agent orchestration, with special emphasis on verifiable safety, citation discipline, and policy compliance. We describe the framework specification, a contract-validation workflow, and pilot use cases in research assistance, code generation, and compliance-sensitive settings. The proposed approach suggests that structured prompt contracts can improve controllability and reduce unsafe or ungrounded outputs while also improving auditability and operational clarity. Future work should evaluate SAMF against baseline prompts using standardized benchmarks, automated violation metrics, and human expert review.</jats:p>",
@@ -199,6 +184,21 @@
     "abs_url": "https://doi.org/10.20944/preprints202604.1025.v1",
     "pdf_url": "",
     "comment": ""
+  },
+  {
+    "paper_id": "10.3390/math14101627",
+    "title": "Pharmacokinetics-Informed Agentic Architecture for Drug Dynamics with LLM-Driven In Silico Patients",
+    "summary": "<jats:p>This research presents the architecture, implementation, and validation of a novel Agentic Large Model (ALM) framework for in silico patient simulation, synergistically combining pharmacokinetic modeling with autonomous clinical reasoning. The multi-agent architecture enables emerging collaboration between specialized components for physiological simulation, medication management, and safety monitoring, coordinated through a central orchestrator to ensure behavioral alignment. Leveraging LLaMA3 via Ollama, the system demonstrates clinically plausible strategic planning across 12 diverse patient scenarios while maintaining trustworthiness through structured JSON-constrained outputs. Key innovations include a modular agent design with clear separation of concerns, integrated drug interaction checking with hierarchical severity assessment, and multi-layer safety assurance. Rigorous evaluation demonstrates effective pain management (39–58% reduction) with appropriate safety flagging in complex cases, particularly for geriatric and polypharmacy patients. The system achieves an average decision latency of 2.1 s while maintaining 98.7% structured output compliance, advancing the foundations of reliable agentic systems in critical healthcare domains.</jats:p>",
+    "authors": [
+      "Jose L. Salmeron"
+    ],
+    "categories": [],
+    "primary_category": "General",
+    "published": "2026-05-11",
+    "updated": "2026-05-20",
+    "abs_url": "https://doi.org/10.3390/math14101627",
+    "pdf_url": "",
+    "comment": "Mathematics"
   },
   {
     "paper_id": "10.5194/egusphere-egu26-2901",
