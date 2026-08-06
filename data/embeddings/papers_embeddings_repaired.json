@@ -1,7 +1,11 @@
 {
   "backend": "chroma",
   "embedding_model": "gemini-embedding-2",
+<<<<<<< HEAD
   "persist_path": "D:\\Courses\\workspace\\Codelabs\\K4_Day10_Data-Pipeline-Data-Observability\\data\\chroma",
+=======
+  "persist_path": "D:\\thuc_hanh_vinAI\\K4_Day10_2A202601334_HoangVanQuang\\data\\chroma",
+>>>>>>> 794017fdc1bb52fd1046efe9b1c41d9896324f5e
   "collection_name": "papers-repaired",
   "documents": [
     {
