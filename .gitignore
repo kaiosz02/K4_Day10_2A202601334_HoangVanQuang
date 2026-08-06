@@ -5,6 +5,7 @@ lab.txt
 src/*.egg-info/
 lab/
 **/__pycache__/
-data/chroma/
+data/chroma/*
+!data/chroma/.gitkeep
 .cursor/
-data/chroma/chroma_db.sqlite3
+data/chroma/chroma.sqlite3
