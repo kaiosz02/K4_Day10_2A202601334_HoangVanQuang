@@ -1,0 +1,110 @@
+[
+  {
+    "id": "q_sum_10.4018/979-8-2600-2601-4.ch004",
+    "question_type": "summary",
+    "question": "What is the summary or main topic of the paper 'Agentic AI and Autonomous Systems'?",
+    "ground_truth": "This chapter examines the rapidly evolving paradigm of Agentic Artificial Intelligence and Autonomous Systems, investigating how large language model-powered agents transition from passive query-response tools to active, goal-directed entities capable of multi-step reasoning, tool use, memory management, and self-correction. This chapter per the authors presents a formal taxonomy of agent architectures alongside analysis of enabling frameworks including ReAct, Reflexion, LangGraph, AutoGen, and CrewAI. Core topics include multi agent coordination, Retrieval-Augmented Generation, the Model Context Protocol, neuromorphic computing, and multimodal perception for embodied AI. Case studies spanning autonomous software engineering, clinical decision support, financial trading, and self-driving vehicles are evaluated. The chapter concludes with safety, alignment, governance, and quantum computing trajectories that will amplify agentic AI capabilities,contributing an engineering-first framework essential for researchers, practitioners, and policymakers navigating the Quantum AI era.",
+    "ground_truth_doc_ids": [
+      "10.4018/979-8-2600-2601-4.ch004"
+    ]
+  },
+  {
+    "id": "q_auth_10.4018/979-8-2600-2601-4.ch004",
+    "question_type": "authors",
+    "question": "Who are the authors of the paper 'Agentic AI and Autonomous Systems'?",
+    "ground_truth": "['S. Prince', 'K. DanielRaj', 'A. Anu Priya']",
+    "ground_truth_doc_ids": [
+      "10.4018/979-8-2600-2601-4.ch004"
+    ]
+  },
+  {
+    "id": "q_date_10.4018/979-8-2600-2601-4.ch004",
+    "question_type": "date",
+    "question": "When was the paper 'Agentic AI and Autonomous Systems' published?",
+    "ground_truth": "2026-06-24",
+    "ground_truth_doc_ids": [
+      "10.4018/979-8-2600-2601-4.ch004"
+    ]
+  },
+  {
+    "id": "q_cat_10.4018/979-8-2600-2601-4.ch004",
+    "question_type": "categories",
+    "question": "What are the categories associated with the paper 'Agentic AI and Autonomous Systems'?",
+    "ground_truth": "[]",
+    "ground_truth_doc_ids": [
+      "10.4018/979-8-2600-2601-4.ch004"
+    ]
+  },
+  {
+    "id": "q_sum_10.64898/2026.04.18.716776",
+    "question_type": "summary",
+    "question": "What is the summary or main topic of the paper 'sdAbs-LLM: Generative Large Language Models For de novo Antibody Design and Agentic Evaluation'?",
+    "ground_truth": "ABSTRACT Despite major advances in computational antibody engineering, no systematic comparison of modern open-source LLM backbone families for antibody sequence generation exists, nor is it known whether architectural differences matter at compact model scales. In this study, five compact transformer variants inspired by prominent open-source LLM families (Llama-4, Gemma-3, DeepSeek-V3, Mistral 7B, and NVIDIA Nemotron-3) were customized and trained from scratch for de novo VH single-domain antibody (sdAb) design. All five models were pretrained from scratch on 15 million sequences from the Observed Antibody Space (OAS) database. Pretraining yielded uniformly high generative fidelity across architectures: sequence diversity 0.507\u20130.516 (CV=0.8%), uniqueness approaching 1.0, and novelty 0.925\u20130.977 (CV=2.2%). The models were subsequently fine-tuned on disease-stratified repertoires spanning SARS-CoV-2 (n=4,688), HIV (n=430), HER2 (n=22,778), and Ebola virus (n=2,868). Structural assessment of top-ranked candidates of those case studies via AlphaFold-2, Boltz-2, RoseTTAFold-2, and ESMFold produced mean pLDDT scores of 92.88\u00b11.54 to 93.77\u00b12.16, with no statistically significant inter-model differences (Kruskal\u2013Wallis H=2.06, p>0.05; N=100), indicating no statistically detectable difference was observed across architectures at this compressed scale in a single-seed experiment, suggesting that generative capacity at this parameter regime is primarily determined by training data and model scale rather than family-specific design elements at this scale. Computational docking yielded predicted binding free energies of \u221236.34 to \u221265.60 kcal/mol; independent biological rigor validation through IMGT-defined CDR-H3 extraction, BLASTp novelty assessment, and NetMHCIIpan 4.3 MHC-II immunogenicity profiling collectively confirmed antigen-binding loop novelty (CDR-H3 identity 0\u201329% to closest database hits), germline-consistent humanness (77\u201390% VH germline content), and immunogenically silent antigen-binding surfaces with no strong MHC-II binders detected across CDR regions in any candidate. We further introduce a proof-of-concept agentic evaluation pipeline leveraging the Model Context Protocol (MCP) with Claude Sonnet 4.6, enabling automated structural profiling and candidate prioritization across disease targets.",
+    "ground_truth_doc_ids": [
+      "10.64898/2026.04.18.716776"
+    ]
+  },
+  {
+    "id": "q_auth_10.64898/2026.04.18.716776",
+    "question_type": "authors",
+    "question": "Who are the authors of the paper 'sdAbs-LLM: Generative Large Language Models For de novo Antibody Design and Agentic Evaluation'?",
+    "ground_truth": "['Delower Hossain', 'Fuad Al Abir', 'Sixue Zhang', 'Jake Y. Chen']",
+    "ground_truth_doc_ids": [
+      "10.64898/2026.04.18.716776"
+    ]
+  },
+  {
+    "id": "q_date_10.64898/2026.04.18.716776",
+    "question_type": "date",
+    "question": "When was the paper 'sdAbs-LLM: Generative Large Language Models For de novo Antibody Design and Agentic Evaluation' published?",
+    "ground_truth": "2026-04-21",
+    "ground_truth_doc_ids": [
+      "10.64898/2026.04.18.716776"
+    ]
+  },
+  {
+    "id": "q_cat_10.64898/2026.04.18.716776",
+    "question_type": "categories",
+    "question": "What are the categories associated with the paper 'sdAbs-LLM: Generative Large Language Models For de novo Antibody Design and Agentic Evaluation'?",
+    "ground_truth": "[]",
+    "ground_truth_doc_ids": [
+      "10.64898/2026.04.18.716776"
+    ]
+  },
+  {
+    "id": "q_sum_10.4018/979-8-2600-0413-5.ch006",
+    "question_type": "summary",
+    "question": "What is the summary or main topic of the paper 'LLM-Based Autonomous Agents for Phishing Detection, Triage, and Response'?",
+    "ground_truth": "This chapter presents an agentic intelligence framework for autonomous phishing detection and response in the context of evolving cyber warfare strategies. It introduces the Autonomous Phishing Detection and Action (APDA) architecture, which integrates large language models with perception, reasoning, action, and feedback layers to enable adaptive and explainable decision-making. This chapter examines how adversarial techniques, such as prompt injection, jailbreaking, hallucination, and data poisoning, threaten LLM-based cybersecurity systems, and outlines the corresponding mitigation strategies embedded within each architectural layer. A structured evaluation framework is proposed, including technical and operational metrics, alongside an illustrative enterprise email threat scenario. This chapter contributes a novel layered approach that bridges advances in natural language processing with autonomous cyber defense, offering a scalable and governance-aware solution for next-generation security operations.",
+    "ground_truth_doc_ids": [
+      "10.4018/979-8-2600-0413-5.ch006"
+    ]
+  },
+  {
+    "id": "q_auth_10.4018/979-8-2600-0413-5.ch006",
+    "question_type": "authors",
+    "question": "Who are the authors of the paper 'LLM-Based Autonomous Agents for Phishing Detection, Triage, and Response'?",
+    "ground_truth": "['Ismail El Bazi', 'Jamal Ezzine', 'Brahim Ghazoui']",
+    "ground_truth_doc_ids": [
+      "10.4018/979-8-2600-0413-5.ch006"
+    ]
+  },
+  {
+    "id": "q_date_10.4018/979-8-2600-0413-5.ch006",
+    "question_type": "date",
+    "question": "When was the paper 'LLM-Based Autonomous Agents for Phishing Detection, Triage, and Response' published?",
+    "ground_truth": "2026-07-31",
+    "ground_truth_doc_ids": [
+      "10.4018/979-8-2600-0413-5.ch006"
+    ]
+  },
+  {
+    "id": "q_cat_10.4018/979-8-2600-0413-5.ch006",
+    "question_type": "categories",
+    "question": "What are the categories associated with the paper 'LLM-Based Autonomous Agents for Phishing Detection, Triage, and Response'?",
+    "ground_truth": "[]",
+    "ground_truth_doc_ids": [
+      "10.4018/979-8-2600-0413-5.ch006"
+    ]
+  }
+]
