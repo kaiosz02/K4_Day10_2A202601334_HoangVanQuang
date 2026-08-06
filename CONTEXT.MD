@@ -73,7 +73,7 @@ Quy tắc xuyên suốt cả nhóm:
   > Mọi lệnh chạy code bên dưới đều giả định `.venv` đã được activate trong shell hiện tại.
 
 - Copy `.env.example` -> `.env`, điền credential của 1 LLM provider
-  (mặc định `LLM_PROVIDER=gemini`, `LLM_MODEL=gemini-2.5-flash`, cần `GOOGLE_API_KEY`)
+  (mặc định `LLM_PROVIDER=gemini`, `LLM_MODEL=gemini-3.1-flash-lite`, cần `GOOGLE_API_KEY`)
 - Providers hỗ trợ: openai, gemini, anthropic, openrouter, ollama, custom OpenAI-compatible
 
 Tìm tất cả phần chưa code (PowerShell nếu chưa có `rg`):
