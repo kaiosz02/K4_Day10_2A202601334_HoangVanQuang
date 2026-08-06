@@ -28,6 +28,7 @@ class LocalEmbeddingIndex:
         collection_name: str,
         documents: list[dict[str, Any]],
         persist_path: Path,
+        collection: Any | None = None,
     ):
         self.settings = settings
         self.collection_name = collection_name
@@ -36,7 +37,13 @@ class LocalEmbeddingIndex:
         self.embedding_backend = "chroma"
         self.embedding_model = GeminiEmbeddings(settings.embedding_model, api_key=settings.google_api_key)
         self.client = chromadb.PersistentClient(path=str(persist_path))
-        self.collection = self.client.get_collection(name=collection_name)
+        if collection is not None:
+            self.collection = collection
+        else:
+            try:
+                self.collection = self.client.get_collection(name=collection_name)
+            except Exception:
+                self.collection = self.client.get_or_create_collection(name=collection_name)
         self.documents_by_paper_id = {document["paper_id"].lower(): document for document in documents}
         self.documents_by_title = {document["title"].lower(): document for document in documents}
 
@@ -126,6 +133,7 @@ class LocalEmbeddingIndex:
             collection_name=collection_name,
             documents=documents,
             persist_path=persist_path,
+            collection=collection,
         )
 
     @classmethod
