@@ -1,0 +1,14 @@
+[
+  {
+    "question": "What is the main topic of paper 'LLM-Based Autonomous Agents for Phishing Detection, Triage, and Response'?",
+    "answer": [
+      {
+        "type": "text",
+        "text": "The main topic of the paper **\"LLM-Based Autonomous Agents for Phishing Detection, Triage, and Response\"** is the development of an agentic intelligence framework designed to automate the detection of and response to phishing attacks.\n\nKey aspects of the paper include:\n\n*   **The APDA Architecture:** It introduces the \"Autonomous Phishing Detection and Action\" (APDA) architecture, which utilizes Large Language Models (LLMs) organized into layers of perception, reasoning, action, and feedback to facilitate adaptive and explainable decision-making.\n*   **Cybersecurity Challenges:** The paper addresses the vulnerabilities of LLM-based security systems to adversarial techniques, such as prompt injection, jailbreaking, hallucinations, and data poisoning.\n*   **Mitigation and Evaluation:** It outlines strategies to mitigate these adversarial threats within the architecture and proposes a structured framework for evaluating the system using both technical and operational metrics.\n*   **Practical Application:** The research demonstrates the framework's utility through an illustrative enterprise email threat scenario, aiming to bridge advancements in natural language processing with autonomous cyber defense.",
+        "extras": {
+          "signature": "EjQKMgERTTIPAS3Zy6c4hDk/DzxXiEcjwUAUfe/cXUqOXYuOTj7bq9uCrFhPxLo2PqpPrQEd"
+        }
+      }
+    ]
+  }
+]

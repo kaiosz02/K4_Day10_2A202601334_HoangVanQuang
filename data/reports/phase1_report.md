@@ -7,8 +7,8 @@
 ## Retrieval & Evaluation Metrics
 - **Retrieval Hit Rate:** 100.00%
 - **Token F1 Score:** 0.8363
-- **Judge Accuracy:** 75.00%
-- **Mean Judge Score:** 4.00/5
+- **Judge Accuracy:** 81.25%
+- **Mean Judge Score:** 4.31/5
 
 ## Data Quality & Freshness
 - **Row Count:** 24

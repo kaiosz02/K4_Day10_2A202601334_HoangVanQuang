@@ -4,7 +4,7 @@
   "message-version": "1.0.0",
   "message": {
     "facets": {},
-    "total-results": 8160,
+    "total-results": 8162,
     "items": [
       {
         "indexed": {
@@ -141,7 +141,7 @@
           "date-time": "2026-07-29T12:51:38Z",
           "timestamp": 1785329498000
         },
-        "score": 26.060007,
+        "score": 26.074425,
         "resource": {
           "primary": {
             "URL": "https://services.igi-global.com/resolvedoi/resolve.aspx?doi=10.4018/979-8-2600-0413-5.ch006"
@@ -431,7 +431,7 @@
           "date-time": "2026-07-02T14:54:58Z",
           "timestamp": 1783004098000
         },
-        "score": 25.577581,
+        "score": 25.5028,
         "resource": {
           "primary": {
             "URL": "https://scienceopen.com/hosted-document?doi=10.14293/PR2199.003969.v1"
@@ -586,7 +586,7 @@
           "date-time": "2026-07-15T08:28:31Z",
           "timestamp": 1784104111000
         },
-        "score": 24.26528,
+        "score": 24.296732,
         "resource": {
           "primary": {
             "URL": "https://www.researchsquare.com/article/rs-10346820/v1"
@@ -718,7 +718,7 @@
           "date-time": "2026-04-30T00:30:44Z",
           "timestamp": 1777509044000
         },
-        "score": 24.129324,
+        "score": 24.13013,
         "resource": {
           "primary": {
             "URL": "https://www.preprints.org/manuscript/202604.1820/v1"
@@ -862,7 +862,7 @@
           "date-time": "2026-04-28T12:53:00Z",
           "timestamp": 1777380780000
         },
-        "score": 24.03056,
+        "score": 24.064373,
         "resource": {
           "primary": {
             "URL": "https://www.cambridge.org/engage/coe/article-details/69ee2903810b9dcc828c5b8b"
@@ -1015,7 +1015,7 @@
           "date-time": "2026-07-01T15:32:16Z",
           "timestamp": 1782919936000
         },
-        "score": 23.355965,
+        "score": 23.354542,
         "resource": {
           "primary": {
             "URL": "https://www.researchsquare.com/article/rs-10196595/v1"
@@ -1118,7 +1118,7 @@
           "date-time": "2026-03-14T06:02:16Z",
           "timestamp": 1773468136000
         },
-        "score": 23.214497,
+        "score": 23.214996,
         "resource": {
           "primary": {
             "URL": "https://meetingorganizer.copernicus.org/EGU26/EGU26-22037.html"
@@ -1273,7 +1273,7 @@
           "date-time": "2026-04-07T02:26:11Z",
           "timestamp": 1775528771000
         },
-        "score": 22.18132,
+        "score": 22.181553,
         "resource": {
           "primary": {
             "URL": "https://www.researchsquare.com/article/rs-9323974/v1"
@@ -1404,7 +1404,7 @@
           "date-time": "2026-04-30T17:26:34Z",
           "timestamp": 1777569994000
         },
-        "score": 21.986687,
+        "score": 22.002022,
         "resource": {
           "primary": {
             "URL": "https://services.igi-global.com/resolvedoi/resolve.aspx?doi=10.4018/979-8-3373-7355-3.ch012"
@@ -1590,7 +1590,7 @@
           "date-time": "2026-06-12T15:48:19Z",
           "timestamp": 1781279299000
         },
-        "score": 21.886902,
+        "score": 21.88988,
         "resource": {
           "primary": {
             "URL": "https://www.techrxiv.org/doi/full/10.36227/techrxiv.175951916.60039552/v2"
@@ -1766,7 +1766,7 @@
           "date-time": "2026-07-24T19:07:41Z",
           "timestamp": 1784920061000
         },
-        "score": 21.797718,
+        "score": 21.798023,
         "resource": {
           "primary": {
             "URL": "https://services.igi-global.com/resolvedoi/resolve.aspx?doi=10.4018/979-8-2600-2601-4.ch004"
@@ -1813,136 +1813,6 @@
             ]
           ]
         }
-      },
-      {
-        "indexed": {
-          "date-parts": [
-            [
-              2026,
-              4,
-              15
-            ]
-          ],
-          "date-time": "2026-04-15T02:43:32Z",
-          "timestamp": 1776221012467,
-          "version": "3.50.1"
-        },
-        "posted": {
-          "date-parts": [
-            [
-              2026,
-              4,
-              15
-            ]
-          ]
-        },
-        "group-title": "Computer Science and Mathematics",
-        "reference-count": 0,
-        "publisher": "MDPI AG",
-        "license": [
-          {
-            "start": {
-              "date-parts": [
-                [
-                  2026,
-                  4,
-                  15
-                ]
-              ],
-              "date-time": "2026-04-15T00:00:00Z",
-              "timestamp": 1776211200000
-            },
-            "content-version": "unspecified",
-            "delay-in-days": 0,
-            "URL": "http://creativecommons.org/licenses/by/4.0"
-          }
-        ],
-        "content-domain": {
-          "domain": [],
-          "crossmark-restriction": false
-        },
-        "accepted": {
-          "date-parts": [
-            [
-              2026,
-              4,
-              9
-            ]
-          ]
-        },
-        "abstract": "<jats:p>Large language models are increasingly deployed in agentic workflows that combine planning, retrieval, tool use, and automated decision support. However, these systems remain vulnerable to unsafe behavior, hallucination, misaligned fine-tuning, and weak reproducibility because most prompts are still written as informal instructions rather than explicit behavioral contracts. This paper introduces the SAWANT (Structured Agentic Workflow for Alignment, Validation, and Negotiated Testing) Agentic MoSCoW Framework (SAMF), a structured prompt engineering methodology that repurposes the MoSCoW prioritization scheme into a machine-readable contract for LLM behavior. SAMF organizes prompt and workflow requirements into Must, Should, Could, and Wont clauses so that non-negotiable constraints can be validated before or after generation, while optional preferences guide quality and style. The framework is designed for single-prompt tasks, retrieval-augmented generation pipelines, and multi-agent orchestration, with special emphasis on verifiable safety, citation discipline, and policy compliance. We describe the framework specification, a contract-validation workflow, and pilot use cases in research assistance, code generation, and compliance-sensitive settings. The proposed approach suggests that structured prompt contracts can improve controllability and reduce unsafe or ungrounded outputs while also improving auditability and operational clarity. Future work should evaluate SAMF against baseline prompts using standardized benchmarks, automated violation metrics, and human expert review.</jats:p>",
-        "DOI": "10.20944/preprints202604.1025.v1",
-        "type": "posted-content",
-        "created": {
-          "date-parts": [
-            [
-              2026,
-              4,
-              15
-            ]
-          ],
-          "date-time": "2026-04-15T01:42:11Z",
-          "timestamp": 1776217331000
-        },
-        "source": "Crossref",
-        "is-referenced-by-count": 0,
-        "title": [
-          "SAMF: SAWANT (Structured Agentic Workflow for Alignment, Validation, and Negotiated Testing) for Reliable, Safe, and Verifiable LLM Prompting"
-        ],
-        "prefix": "10.20944",
-        "author": [
-          {
-            "given": "Prashant",
-            "family": "Sawant",
-            "sequence": "first",
-            "affiliation": [],
-            "role": [
-              {
-                "role": "author",
-                "vocabulary": "crossref"
-              }
-            ]
-          }
-        ],
-        "member": "1968",
-        "deposited": {
-          "date-parts": [
-            [
-              2026,
-              4,
-              15
-            ]
-          ],
-          "date-time": "2026-04-15T01:44:18Z",
-          "timestamp": 1776217458000
-        },
-        "score": 21.615246,
-        "resource": {
-          "primary": {
-            "URL": "https://www.preprints.org/manuscript/202604.1025/v1"
-          }
-        },
-        "issued": {
-          "date-parts": [
-            [
-              2026,
-              4,
-              15
-            ]
-          ]
-        },
-        "references-count": 0,
-        "URL": "https://doi.org/10.20944/preprints202604.1025.v1",
-        "published": {
-          "date-parts": [
-            [
-              2026,
-              4,
-              15
-            ]
-          ]
-        },
-        "subtype": "preprint"
       },
       {
         "indexed": {
@@ -2391,7 +2261,7 @@
           "date-time": "2026-05-20T04:19:17Z",
           "timestamp": 1779250757000
         },
-        "score": 21.572151,
+        "score": 21.631958,
         "resource": {
           "primary": {
             "URL": "https://www.mdpi.com/2227-7390/14/10/1627"
@@ -2440,6 +2310,136 @@
             ]
           ]
         }
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              15
+            ]
+          ],
+          "date-time": "2026-04-15T02:43:32Z",
+          "timestamp": 1776221012467,
+          "version": "3.50.1"
+        },
+        "posted": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              15
+            ]
+          ]
+        },
+        "group-title": "Computer Science and Mathematics",
+        "reference-count": 0,
+        "publisher": "MDPI AG",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2026,
+                  4,
+                  15
+                ]
+              ],
+              "date-time": "2026-04-15T00:00:00Z",
+              "timestamp": 1776211200000
+            },
+            "content-version": "unspecified",
+            "delay-in-days": 0,
+            "URL": "http://creativecommons.org/licenses/by/4.0"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "accepted": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              9
+            ]
+          ]
+        },
+        "abstract": "<jats:p>Large language models are increasingly deployed in agentic workflows that combine planning, retrieval, tool use, and automated decision support. However, these systems remain vulnerable to unsafe behavior, hallucination, misaligned fine-tuning, and weak reproducibility because most prompts are still written as informal instructions rather than explicit behavioral contracts. This paper introduces the SAWANT (Structured Agentic Workflow for Alignment, Validation, and Negotiated Testing) Agentic MoSCoW Framework (SAMF), a structured prompt engineering methodology that repurposes the MoSCoW prioritization scheme into a machine-readable contract for LLM behavior. SAMF organizes prompt and workflow requirements into Must, Should, Could, and Wont clauses so that non-negotiable constraints can be validated before or after generation, while optional preferences guide quality and style. The framework is designed for single-prompt tasks, retrieval-augmented generation pipelines, and multi-agent orchestration, with special emphasis on verifiable safety, citation discipline, and policy compliance. We describe the framework specification, a contract-validation workflow, and pilot use cases in research assistance, code generation, and compliance-sensitive settings. The proposed approach suggests that structured prompt contracts can improve controllability and reduce unsafe or ungrounded outputs while also improving auditability and operational clarity. Future work should evaluate SAMF against baseline prompts using standardized benchmarks, automated violation metrics, and human expert review.</jats:p>",
+        "DOI": "10.20944/preprints202604.1025.v1",
+        "type": "posted-content",
+        "created": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              15
+            ]
+          ],
+          "date-time": "2026-04-15T01:42:11Z",
+          "timestamp": 1776217331000
+        },
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "SAMF: SAWANT (Structured Agentic Workflow for Alignment, Validation, and Negotiated Testing) for Reliable, Safe, and Verifiable LLM Prompting"
+        ],
+        "prefix": "10.20944",
+        "author": [
+          {
+            "given": "Prashant",
+            "family": "Sawant",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "member": "1968",
+        "deposited": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              15
+            ]
+          ],
+          "date-time": "2026-04-15T01:44:18Z",
+          "timestamp": 1776217458000
+        },
+        "score": 21.615425,
+        "resource": {
+          "primary": {
+            "URL": "https://www.preprints.org/manuscript/202604.1025/v1"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              15
+            ]
+          ]
+        },
+        "references-count": 0,
+        "URL": "https://doi.org/10.20944/preprints202604.1025.v1",
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              15
+            ]
+          ]
+        },
+        "subtype": "preprint"
       },
       {
         "indexed": {
@@ -2564,7 +2564,7 @@
           "date-time": "2026-03-13T20:26:32Z",
           "timestamp": 1773433592000
         },
-        "score": 21.54747,
+        "score": 21.547813,
         "resource": {
           "primary": {
             "URL": "https://meetingorganizer.copernicus.org/EGU26/EGU26-2901.html"
@@ -2732,7 +2732,7 @@
           "date-time": "2026-04-15T01:44:39Z",
           "timestamp": 1776217479000
         },
-        "score": 21.482338,
+        "score": 21.516369,
         "resource": {
           "primary": {
             "URL": "https://www.preprints.org/manuscript/202602.1368/v1"
@@ -2878,7 +2878,7 @@
           "date-time": "2026-06-23T16:32:52Z",
           "timestamp": 1782232372000
         },
-        "score": 21.41888,
+        "score": 21.441265,
         "resource": {
           "primary": {
             "URL": "https://ojs.aaai.org/index.php/AAAI-SS/article/view/42944"
@@ -3015,7 +3015,7 @@
           "date-time": "2026-03-14T00:41:55Z",
           "timestamp": 1773448915000
         },
-        "score": 21.302916,
+        "score": 21.300577,
         "resource": {
           "primary": {
             "URL": "https://meetingorganizer.copernicus.org/EGU26/EGU26-11295.html"
@@ -3126,7 +3126,7 @@
           "date-time": "2026-05-25T16:44:42Z",
           "timestamp": 1779727482000
         },
-        "score": 21.279778,
+        "score": 21.234348,
         "resource": {
           "primary": {
             "URL": "https://isjem.com/download/agentic-llm-pipeline-for-natural-language-to-sql/"
@@ -3272,7 +3272,7 @@
           "date-time": "2026-06-22T07:58:01Z",
           "timestamp": 1782115081000
         },
-        "score": 21.11496,
+        "score": 21.11562,
         "resource": {
           "primary": {
             "URL": "https://proceedings.aztu.edu.az/uploads/articles/1782105911_32f3829631fd2a2a3190.pdf"
@@ -3856,7 +3856,7 @@
           "date-time": "2026-06-26T06:15:37Z",
           "timestamp": 1782454537000
         },
-        "score": 20.781,
+        "score": 20.77846,
         "resource": {
           "primary": {
             "URL": "https://www.researchsquare.com/article/rs-8343110/v1"
@@ -4279,7 +4279,7 @@
           "date-time": "2026-04-25T12:15:23Z",
           "timestamp": 1777119323000
         },
-        "score": 20.755424,
+        "score": 20.75045,
         "resource": {
           "primary": {
             "URL": "http://biorxiv.org/lookup/doi/10.64898/2026.04.18.716776"
@@ -4461,7 +4461,7 @@
           "date-time": "2026-07-01T02:41:37Z",
           "timestamp": 1782873697000
         },
-        "score": 20.688772,
+        "score": 20.689007,
         "resource": {
           "primary": {
             "URL": "https://www.preprints.org/manuscript/202605.1627/v1"
@@ -4895,7 +4895,7 @@
           "date-time": "2026-08-03T21:15:18Z",
           "timestamp": 1785791718000
         },
-        "score": 20.688772,
+        "score": 20.689007,
         "resource": {
           "primary": {
             "URL": "http://medrxiv.org/lookup/doi/10.64898/2026.07.30.26359271"
@@ -5044,7 +5044,7 @@
           "date-time": "2026-06-10T17:25:37Z",
           "timestamp": 1781112337000
         },
-        "score": 20.648743,
+        "score": 20.649065,
         "resource": {
           "primary": {
             "URL": "https://services.igi-global.com/resolvedoi/resolve.aspx?doi=10.4018/979-8-3373-6650-0.ch016"

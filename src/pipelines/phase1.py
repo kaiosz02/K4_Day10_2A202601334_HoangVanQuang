@@ -33,7 +33,7 @@ def main() -> None:
     print(f"-> Saved {len(clean_df)} clean records to {settings.paths.clean_csv}")
 
     # 3. Build ChromaDB Vector Index
-    print("Step 3: Building MiniLM ChromaDB vector index...")
+    print("Step 3: Building Gemini ChromaDB vector index...")
     index = LocalEmbeddingIndex.build(
         df=clean_df,
         settings=settings,
@@ -63,8 +63,8 @@ def main() -> None:
     print("Step 6: Running Data Quality Checks & Freshness Monitoring...")
     quality = run_data_quality_checks(clean_df, settings, "quality_report_baseline")
     freshness = build_freshness_report(clean_df, settings, settings.paths.freshness_report)
-    print(f"-> Quality Checks Status: {'PASSED ✅' if quality.get('success') else 'FAILED ❌'}")
-    print(f"-> Freshness SLA Status: {'FRESH ✅' if freshness.get('is_fresh') else 'STALE ⚠️'}")
+    print(f"-> Quality Checks Status: {'PASSED' if quality.get('success') else 'FAILED'}")
+    print(f"-> Freshness SLA Status: {'FRESH' if freshness.get('is_fresh') else 'STALE'}")
 
     # 7. Generate Phase 1 Baseline Markdown Report
     print("Step 7: Generating Phase 1 Baseline Markdown Report...")

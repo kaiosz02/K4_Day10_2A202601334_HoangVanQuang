@@ -34,7 +34,7 @@ class LocalEmbeddingIndex:
         self.documents = documents
         self.persist_path = persist_path
         self.embedding_backend = "chroma"
-        self.embedding_model = GeminiEmbeddings(settings.embedding_model)
+        self.embedding_model = GeminiEmbeddings(settings.embedding_model, api_key=settings.google_api_key)
         self.client = chromadb.PersistentClient(path=str(persist_path))
         self.collection = self.client.get_collection(name=collection_name)
         self.documents_by_paper_id = {document["paper_id"].lower(): document for document in documents}
@@ -92,7 +92,7 @@ class LocalEmbeddingIndex:
         persist_path = settings.paths.chroma_dir
         persist_path.mkdir(parents=True, exist_ok=True)
 
-        embedding_model = GeminiEmbeddings(settings.embedding_model)
+        embedding_model = GeminiEmbeddings(settings.embedding_model, api_key=settings.google_api_key)
         client = chromadb.PersistentClient(path=str(persist_path))
         try:
             client.delete_collection(name=collection_name)

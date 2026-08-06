@@ -34,5 +34,113 @@
     "ground_truth_doc_ids": [
       "10.4018/979-8-2600-0413-5.ch006"
     ]
+  },
+  {
+    "id": "q_sum_1_10.64898/2026.07.30.26359271",
+    "question_type": "summary",
+    "question": "What is the main summary of the paper 'Agentic-TimesFM-AKI: A Dual LLM\u2013Time Series Framework for Predicting Drug-Induced Acute Kidney Injury with Privacy-Preserving Synthetic Data'?",
+    "ground_truth": "Abstract Background Acute kidney injury (AKI) is a severe complication in intensive care units, frequently exacerbated by synergistic nephrotoxicity from drugs such as Vancomycin and Piperacillin-Tazobactam. Traditional alert systems relying on static thresholds suffer from high false-positive rates and delayed detection. Methods We developed Agentic-TimesFM-AKI, a dual-model architecture integrating a Large Language Model (Gemma-4 Sentinel) with a zero-shot time-series forecaster (TimesFM) to provide continuous, dynamic risk forecasting and transparent clinical reasoning. The system was trained on a synthetically generated cohort with differential privacy (\u03b5=10) and evaluated on the publicly accessible eICU (N=200) and MIMIC-IV (N=117) Demo datasets. Results In the internal eICU pilot evaluation, the framework achieved an Accuracy of 0.970 (95% CI: 0.945-0.990) and an F1-Score of 0.966, successfully mapping temporal physiological trajectories into intelligible natural language alerts. However, external validation on the MIMIC-IV cohort revealed severe performance degradation. Conclusions While the dual-model framework provides highly accurate and interpretable AKI alerts on familiar schema cohorts, it suffers from structural formatting fragility and domain shift. This highlights critical vulnerabilities in applying generative models to out-of-distribution electronic health records.",
+    "ground_truth_doc_ids": [
+      "10.64898/2026.07.30.26359271"
+    ]
+  },
+  {
+    "id": "q_auth_1_10.64898/2026.07.30.26359271",
+    "question_type": "authors",
+    "question": "Who authored the paper 'Agentic-TimesFM-AKI: A Dual LLM\u2013Time Series Framework for Predicting Drug-Induced Acute Kidney Injury with Privacy-Preserving Synthetic Data'?",
+    "ground_truth": "Gamal Esam Ahmed Alsakkaf",
+    "ground_truth_doc_ids": [
+      "10.64898/2026.07.30.26359271"
+    ]
+  },
+  {
+    "id": "q_date_1_10.64898/2026.07.30.26359271",
+    "question_type": "date",
+    "question": "When was the paper 'Agentic-TimesFM-AKI: A Dual LLM\u2013Time Series Framework for Predicting Drug-Induced Acute Kidney Injury with Privacy-Preserving Synthetic Data' published?",
+    "ground_truth": "2026-07-31",
+    "ground_truth_doc_ids": [
+      "10.64898/2026.07.30.26359271"
+    ]
+  },
+  {
+    "id": "q_cat_1_10.64898/2026.07.30.26359271",
+    "question_type": "categories",
+    "question": "What categories belong to the paper 'Agentic-TimesFM-AKI: A Dual LLM\u2013Time Series Framework for Predicting Drug-Induced Acute Kidney Injury with Privacy-Preserving Synthetic Data'?",
+    "ground_truth": "General",
+    "ground_truth_doc_ids": [
+      "10.64898/2026.07.30.26359271"
+    ]
+  },
+  {
+    "id": "q_sum_2_10.21203/rs.3.rs-10346820/v1",
+    "question_type": "summary",
+    "question": "What is the main summary of the paper 'Poor Man's Agentic Modeling: Simulating Large LLM-Agent Societies on a Laptop'?",
+    "ground_truth": "Abstract Simulating societies of many large language model (LLM) agents is expensive, yet the questions asked of such simulations are usually macroscopic: phase behaviour, stylised facts, and scaling with the number of agents N, not the cognition of any single agent. We turn a statistical-physics observation into a method: replace each LLM agent by a low-parameter model fitted from a few hundred to a few thousand cheap queries, then run the society at any N on a laptop. Whether this works is decided before the simulation runs, chiefly by what each agent perceives. We introduce an [interaction order \u00d7 memory] taxonomy that maps perception and memory to an effective theory and a predicted N-trend of the surrogate error. We validate it on a faithful reimplementation of the LLM macroeconomy EconAgent and seven further named LLM simulations, with agent decisions cloned from genuine LLM elicitations (primarily DeepSeek) for a few dollars; the predicted error trends hold cell by cell, and the two refuted predictions, both on a strongly saturating response and traced to its curvature, are themselves matched quantitatively by the theory with no free parameters.",
+    "ground_truth_doc_ids": [
+      "10.21203/rs.3.rs-10346820/v1"
+    ]
+  },
+  {
+    "id": "q_auth_2_10.21203/rs.3.rs-10346820/v1",
+    "question_type": "authors",
+    "question": "Who authored the paper 'Poor Man's Agentic Modeling: Simulating Large LLM-Agent Societies on a Laptop'?",
+    "ground_truth": "Igor Itkin",
+    "ground_truth_doc_ids": [
+      "10.21203/rs.3.rs-10346820/v1"
+    ]
+  },
+  {
+    "id": "q_date_2_10.21203/rs.3.rs-10346820/v1",
+    "question_type": "date",
+    "question": "When was the paper 'Poor Man's Agentic Modeling: Simulating Large LLM-Agent Societies on a Laptop' published?",
+    "ground_truth": "2026-07-15",
+    "ground_truth_doc_ids": [
+      "10.21203/rs.3.rs-10346820/v1"
+    ]
+  },
+  {
+    "id": "q_cat_2_10.21203/rs.3.rs-10346820/v1",
+    "question_type": "categories",
+    "question": "What categories belong to the paper 'Poor Man's Agentic Modeling: Simulating Large LLM-Agent Societies on a Laptop'?",
+    "ground_truth": "General",
+    "ground_truth_doc_ids": [
+      "10.21203/rs.3.rs-10346820/v1"
+    ]
+  },
+  {
+    "id": "q_sum_3_10.21203/rs.3.rs-10196595/v1",
+    "question_type": "summary",
+    "question": "What is the main summary of the paper 'Containment over Detection: Cryptographic Boundary Enforcement for Prompt Injection Defense in Agentic LLM Systems'?",
+    "ground_truth": "Abstract Prompt injection\u2014the manipulation of an LLM-based agent through adversarial content embedded in user input\u2014poses a critical security risk in production agentic systems with access to sensitive datastores and code execution environments. Detection-based defenses (keyword filtering, learned classifiers) suffer from a fundamental accuracy\u2013latency tradeoff and fail to address the root cause: the absence of a syntactic boundary between instructions and data in LLM context windows. We present a containment-based defense architecture that shifts the security objective from detecting malicious input to rendering injection attempts structurally inert. The defense comprises four composable layers: (1) ephemeral cryptographic token generation providing 256 bits of boundary entropy, (2) input canonicalization eliminating encoding-based bypass vectors, (3) token-authenticated XML envelope wrapping with server-side escape validation, and (4) behavioral prompt grounding that leverages the envelope as a trust signal. We formalize the security guarantee and prove that, under a black-box attacker model without oracle access to the runtime token, the probability of crafting a valid boundary escape is negligible (\\(\\le 2^{-256}\\)). The architecture is validated through 15 machine-checkable correctness properties using the Hypothesis property-based testing framework\u2014three of which caught security-critical bugs before production deployment. Empirical evaluation against 547 adversarial patterns drawn from four established attack corpora (Garak, OWASP LLM Top 10, HarmBench prompt injection subset, and a custom multilingual probe set) demonstrates a 94.3% syntactic containment rate; the 5.7% residual failures are confirmed to be model-level semantic jailbreaks orthogonal to input-layer defense. Measured runtime overhead is",
+    "ground_truth_doc_ids": [
+      "10.21203/rs.3.rs-10196595/v1"
+    ]
+  },
+  {
+    "id": "q_auth_3_10.21203/rs.3.rs-10196595/v1",
+    "question_type": "authors",
+    "question": "Who authored the paper 'Containment over Detection: Cryptographic Boundary Enforcement for Prompt Injection Defense in Agentic LLM Systems'?",
+    "ground_truth": "Saurabh Sharma",
+    "ground_truth_doc_ids": [
+      "10.21203/rs.3.rs-10196595/v1"
+    ]
+  },
+  {
+    "id": "q_date_3_10.21203/rs.3.rs-10196595/v1",
+    "question_type": "date",
+    "question": "When was the paper 'Containment over Detection: Cryptographic Boundary Enforcement for Prompt Injection Defense in Agentic LLM Systems' published?",
+    "ground_truth": "2026-07-01",
+    "ground_truth_doc_ids": [
+      "10.21203/rs.3.rs-10196595/v1"
+    ]
+  },
+  {
+    "id": "q_cat_3_10.21203/rs.3.rs-10196595/v1",
+    "question_type": "categories",
+    "question": "What categories belong to the paper 'Containment over Detection: Cryptographic Boundary Enforcement for Prompt Injection Defense in Agentic LLM Systems'?",
+    "ground_truth": "General",
+    "ground_truth_doc_ids": [
+      "10.21203/rs.3.rs-10196595/v1"
+    ]
   }
 ]
